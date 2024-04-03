@@ -13,7 +13,7 @@ public class WordList
     int n = 0;
     for (int i = 0; i<myList.size(); i++){
       if (myList.get(i).length()==len)
-        n++
+        n++;
     }
     return n;
   }
